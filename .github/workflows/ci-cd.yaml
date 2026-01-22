@@ -66,10 +66,6 @@ jobs:
           version: v0.22.0
           node_image: kindest/node:v1.30.0
 
-      - name: Load Docker image to Kind
-        run: |
-          kind load docker-image hariprasath9849/myapp:latest --name chart-testing
-
       - name: Deploy to Kubernetes
         run: |
           kubectl apply -f k8s --recursive
@@ -96,10 +92,6 @@ jobs:
         with:
           minikube-version: v1.33.1
           kubernetes-version: v1.30.0
-
-      - name: Load Docker image to Minikube
-        run: |
-          minikube image load hariprasath9849/myapp:latest
 
       - name: Deploy to Kubernetes
         run: |
