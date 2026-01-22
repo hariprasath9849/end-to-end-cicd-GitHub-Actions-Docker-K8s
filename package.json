@@ -1,0 +1,24 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "Sample Node.js app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hariprasath76/End-to-End-CI-CD-GitHub-Actions-Docker-K8s.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hariprasath76/End-to-End-CI-CD-GitHub-Actions-Docker-K8s/issues"
+  },
+  "homepage": "https://github.com/Hariprasath76/End-to-End-CI-CD-GitHub-Actions-Docker-K8s#readme"
+}
